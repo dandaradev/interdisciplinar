@@ -1,0 +1,58 @@
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.carousel {
+    width:900px;
+    height:auto;
+}
+
+#carouselExample {
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.carousel-item img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 500px; /* Define uma altura máxima para as imagens */
+    width: auto; /* Mantém a proporção da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  }
+
+  .container {
+    margin-top:10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color:#131313;
+  }
+
+  .jogos {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .jogos h2 {
+    display: flex;
+    margin:60px;
+  }
+
+  .iconeJogo {
+    margin-top:40px; 
+    width:250px;
+    height:250px;
+  }
+
+  .iconeJogo img {
+    width:200px;
+    height:200px;
+  }
+
+  h1 {
+    font-size:70px;
+  }
