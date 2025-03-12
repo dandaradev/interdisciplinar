@@ -1,0 +1,95 @@
+.biomas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudoBioma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 10vh;
+}
+
+.bioma {
+    width:80vw;
+    padding:30px;
+    margin-bottom:10vh;
+    margin-top:12vh;
+}
+
+.tituloBioma {
+    color:#787746;
+    text-align: center;
+    margin-bottom:30px;
+}
+
+.bioma img {
+    width:400px;
+    height:auto;
+}
+
+.textoBioma {
+    width:50vw;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.animal1 img, .animal2 img {
+    width:300px;
+    height:300px;
+    border-radius: 100%;
+    margin:20px;
+}
+
+.animal1, .animal2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.animal2 {
+    text-align: right;
+    align-items:flex-end;
+
+}
+
+.animais {
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+
+.animais p {
+    font-size:19px;
+}
+
+.conteudoAnimal {
+    text-align:center;
+    width:min-content;
+
+}
+
+h1, h2 {
+    text-transform: capitalize;
+}
+
+.containerCarrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20vh;
+    margin-bottom: 6vh;
+}
+
+.containerCarrossel h1 {
+    margin-bottom:-1vh;
+}
+
+.navbars {
+    position:fixed;
+    width:100%;
+    top: 0;
+    z-index: 1;
+}
